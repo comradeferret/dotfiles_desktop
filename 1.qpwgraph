@@ -1,0 +1,30 @@
+<!DOCTYPE patchbay>
+<patchbay name="1" version="0.6.3">
+ <items>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="FireDragon" port="FireDragon:output_FR"/>
+   <input node="my-virtualmic Audio/Source/Virtual sink" port="my-virtualmic Audio/Source/Virtual sink:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="FireDragon" port="FireDragon:output_FL"/>
+   <input node="my-virtualmic Audio/Source/Virtual sink" port="my-virtualmic Audio/Source/Virtual sink:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="gmusicbrowser" port="gmusicbrowser:output_FL"/>
+   <input node="my-virtualmic Audio/Source/Virtual sink" port="my-virtualmic Audio/Source/Virtual sink:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Shure MV7 Mono" port="Shure MV7:capture_MONO"/>
+   <input node="my-virtualmic Audio/Source/Virtual sink" port="my-virtualmic Audio/Source/Virtual sink:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="gmusicbrowser" port="gmusicbrowser:output_FR"/>
+   <input node="my-virtualmic Audio/Source/Virtual sink" port="my-virtualmic Audio/Source/Virtual sink:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Shure MV7 Mono" port="Shure MV7:capture_MONO"/>
+   <input node="my-virtualmic Audio/Source/Virtual sink" port="my-virtualmic Audio/Source/Virtual sink:input_FR"/>
+  </item>
+ </items>
+</patchbay>
+

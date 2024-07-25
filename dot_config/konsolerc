@@ -1,0 +1,25 @@
+[Desktop Entry]
+DefaultProfile=Garuda.profile
+
+[General]
+ConfigVersion=1
+
+[KFileDialog Settings]
+detailViewIconSize=16
+
+[KonsoleWindow]
+RememberWindowSize=false
+ShowMenuBarByDefault=false
+
+[MainWindow]
+1920x1080 screen: Height=562
+1920x1080 screen: Width=1119
+MenuBar=Disabled
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+
+[Notification Messages]
+CloseAllTabs=true
+
+[UiSettings]
+ColorScheme=
